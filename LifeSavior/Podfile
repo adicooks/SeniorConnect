@@ -1,0 +1,9 @@
+project 'LifeSavior.xcworkspace'
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'LifeSavior' do
+  pod 'AWSCore', '~> 2.0'
+  # Add other AWS service pods if needed
+end

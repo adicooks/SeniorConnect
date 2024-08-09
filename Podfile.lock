@@ -1,0 +1,21 @@
+PODS:
+  - AWSCloudWatch (2.33.0):
+    - AWSCore (= 2.33.0)
+  - AWSCore (2.33.0)
+
+DEPENDENCIES:
+  - AWSCloudWatch
+  - AWSCore
+
+SPEC REPOS:
+  trunk:
+    - AWSCloudWatch
+    - AWSCore
+
+SPEC CHECKSUMS:
+  AWSCloudWatch: a33cbc3e3e4652f4e1d1adc19d273256afb17069
+  AWSCore: ff962198e35c750cb1d59cd459c51f1990e3ec68
+
+PODFILE CHECKSUM: 03a39a024b386b947a53f5d28e370cabc6208e48
+
+COCOAPODS: 1.12.1

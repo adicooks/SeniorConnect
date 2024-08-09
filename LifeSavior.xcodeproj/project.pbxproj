@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402AC3772A24E8CF0087F194 /* LifeSaviorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3762A24E8CF0087F194 /* LifeSaviorApp.swift */; };
+		402AC37B2A24E8D10087F194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402AC37A2A24E8D10087F194 /* Assets.xcassets */; };
+		402AC37E2A24E8D10087F194 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402AC37D2A24E8D10087F194 /* Preview Assets.xcassets */; };
+		402AC3882A24E8D10087F194 /* LifeSaviorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3872A24E8D10087F194 /* LifeSaviorTests.swift */; };
+		402AC3922A24E8D10087F194 /* LifeSaviorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3912A24E8D10087F194 /* LifeSaviorUITests.swift */; };
+		402AC3942A24E8D10087F194 /* LifeSaviorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3932A24E8D10087F194 /* LifeSaviorUITestsLaunchTests.swift */; };
+		402AC3A12A24E94C0087F194 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3A02A24E94C0087F194 /* LoginView.swift */; };
+		402AC3A92A24ED2A0087F194 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3A82A24ED2A0087F194 /* HomeTabView.swift */; };
+		402AC3AD2A24ED440087F194 /* AlertsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3AC2A24ED440087F194 /* AlertsTabView.swift */; };
+		402AC3AF2A24ED510087F194 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402AC3AE2A24ED510087F194 /* SettingsTabView.swift */; };
+		403396312A700380002BFC75 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403396302A700380002BFC75 /* NotificationManager.swift */; };
+		403396332A70046B002BFC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403396322A70046B002BFC75 /* SceneDelegate.swift */; };
+		405D5DD02ADCBB5F000AD2BF /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 405D5DCF2ADCBB5F000AD2BF /* SwiftUICharts */; };
+		405D5DD62AE07EEB000AD2BF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D5DD52AE07EEB000AD2BF /* HomeView.swift */; };
+		40A5A2D82ACE078E00AE44EE /* GraphTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A5A2D72ACE078E00AE44EE /* GraphTabView.swift */; };
+		40FC9D132AF1AFB500CB043E /* AWSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 40FC9D122AF1AFB500CB043E /* AWSCore */; };
+		40FC9D152AF1AFB500CB043E /* AWSDynamoDB in Frameworks */ = {isa = PBXBuildFile; productRef = 40FC9D142AF1AFB500CB043E /* AWSDynamoDB */; };
+		40FC9D172AF1AFB500CB043E /* AWSIoT in Frameworks */ = {isa = PBXBuildFile; productRef = 40FC9D162AF1AFB500CB043E /* AWSIoT */; };
+		40FC9D192AF1AFB500CB043E /* AWSLogs in Frameworks */ = {isa = PBXBuildFile; productRef = 40FC9D182AF1AFB500CB043E /* AWSLogs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402AC3842A24E8D10087F194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402AC36B2A24E8CF0087F194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402AC3722A24E8CF0087F194;
+			remoteInfo = LifeSavior;
+		};
+		402AC38E2A24E8D10087F194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 402AC36B2A24E8CF0087F194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402AC3722A24E8CF0087F194;
+			remoteInfo = LifeSavior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		402AC3732A24E8CF0087F194 /* LifeSavior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSavior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402AC3762A24E8CF0087F194 /* LifeSaviorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaviorApp.swift; sourceTree = "<group>"; };
+		402AC37A2A24E8D10087F194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		402AC37D2A24E8D10087F194 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		402AC3832A24E8D10087F194 /* LifeSaviorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSaviorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402AC3872A24E8D10087F194 /* LifeSaviorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaviorTests.swift; sourceTree = "<group>"; };
+		402AC38D2A24E8D10087F194 /* LifeSaviorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSaviorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		402AC3912A24E8D10087F194 /* LifeSaviorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaviorUITests.swift; sourceTree = "<group>"; };
+		402AC3932A24E8D10087F194 /* LifeSaviorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSaviorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		402AC3A02A24E94C0087F194 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		402AC3A82A24ED2A0087F194 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		402AC3AC2A24ED440087F194 /* AlertsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTabView.swift; sourceTree = "<group>"; };
+		402AC3AE2A24ED510087F194 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		402AC3B12A2E97EB0087F194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		403396302A700380002BFC75 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		403396322A70046B002BFC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		405D5DD52AE07EEB000AD2BF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		40A5A2D72ACE078E00AE44EE /* GraphTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402AC3702A24E8CF0087F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FC9D192AF1AFB500CB043E /* AWSLogs in Frameworks */,
+				405D5DD02ADCBB5F000AD2BF /* SwiftUICharts in Frameworks */,
+				40FC9D172AF1AFB500CB043E /* AWSIoT in Frameworks */,
+				40FC9D152AF1AFB500CB043E /* AWSDynamoDB in Frameworks */,
+				40FC9D132AF1AFB500CB043E /* AWSCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC3802A24E8D10087F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC38A2A24E8D10087F194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402AC36A2A24E8CF0087F194 = {
+			isa = PBXGroup;
+			children = (
+				402AC3752A24E8CF0087F194 /* LifeSavior */,
+				402AC3862A24E8D10087F194 /* LifeSaviorTests */,
+				402AC3902A24E8D10087F194 /* LifeSaviorUITests */,
+				402AC3742A24E8CF0087F194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402AC3742A24E8CF0087F194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402AC3732A24E8CF0087F194 /* LifeSavior.app */,
+				402AC3832A24E8D10087F194 /* LifeSaviorTests.xctest */,
+				402AC38D2A24E8D10087F194 /* LifeSaviorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402AC3752A24E8CF0087F194 /* LifeSavior */ = {
+			isa = PBXGroup;
+			children = (
+				402AC3B12A2E97EB0087F194 /* Info.plist */,
+				403396302A700380002BFC75 /* NotificationManager.swift */,
+				403396322A70046B002BFC75 /* SceneDelegate.swift */,
+				402AC3762A24E8CF0087F194 /* LifeSaviorApp.swift */,
+				402AC3A02A24E94C0087F194 /* LoginView.swift */,
+				405D5DD52AE07EEB000AD2BF /* HomeView.swift */,
+				402AC3A82A24ED2A0087F194 /* HomeTabView.swift */,
+				40A5A2D72ACE078E00AE44EE /* GraphTabView.swift */,
+				402AC3AC2A24ED440087F194 /* AlertsTabView.swift */,
+				402AC3AE2A24ED510087F194 /* SettingsTabView.swift */,
+				402AC37A2A24E8D10087F194 /* Assets.xcassets */,
+				402AC37C2A24E8D10087F194 /* Preview Content */,
+			);
+			path = LifeSavior;
+			sourceTree = "<group>";
+		};
+		402AC37C2A24E8D10087F194 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				402AC37D2A24E8D10087F194 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		402AC3862A24E8D10087F194 /* LifeSaviorTests */ = {
+			isa = PBXGroup;
+			children = (
+				402AC3872A24E8D10087F194 /* LifeSaviorTests.swift */,
+			);
+			path = LifeSaviorTests;
+			sourceTree = "<group>";
+		};
+		402AC3902A24E8D10087F194 /* LifeSaviorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				402AC3912A24E8D10087F194 /* LifeSaviorUITests.swift */,
+				402AC3932A24E8D10087F194 /* LifeSaviorUITestsLaunchTests.swift */,
+			);
+			path = LifeSaviorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402AC3722A24E8CF0087F194 /* LifeSavior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402AC3972A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSavior" */;
+			buildPhases = (
+				402AC36F2A24E8CF0087F194 /* Sources */,
+				402AC3702A24E8CF0087F194 /* Frameworks */,
+				402AC3712A24E8CF0087F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeSavior;
+			packageProductDependencies = (
+				405D5DCF2ADCBB5F000AD2BF /* SwiftUICharts */,
+				40FC9D122AF1AFB500CB043E /* AWSCore */,
+				40FC9D142AF1AFB500CB043E /* AWSDynamoDB */,
+				40FC9D162AF1AFB500CB043E /* AWSIoT */,
+				40FC9D182AF1AFB500CB043E /* AWSLogs */,
+			);
+			productName = LifeSavior;
+			productReference = 402AC3732A24E8CF0087F194 /* LifeSavior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		402AC3822A24E8D10087F194 /* LifeSaviorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402AC39A2A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSaviorTests" */;
+			buildPhases = (
+				402AC37F2A24E8D10087F194 /* Sources */,
+				402AC3802A24E8D10087F194 /* Frameworks */,
+				402AC3812A24E8D10087F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402AC3852A24E8D10087F194 /* PBXTargetDependency */,
+			);
+			name = LifeSaviorTests;
+			productName = LifeSaviorTests;
+			productReference = 402AC3832A24E8D10087F194 /* LifeSaviorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		402AC38C2A24E8D10087F194 /* LifeSaviorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402AC39D2A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSaviorUITests" */;
+			buildPhases = (
+				402AC3892A24E8D10087F194 /* Sources */,
+				402AC38A2A24E8D10087F194 /* Frameworks */,
+				402AC38B2A24E8D10087F194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				402AC38F2A24E8D10087F194 /* PBXTargetDependency */,
+			);
+			name = LifeSaviorUITests;
+			productName = LifeSaviorUITests;
+			productReference = 402AC38D2A24E8D10087F194 /* LifeSaviorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402AC36B2A24E8CF0087F194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					402AC3722A24E8CF0087F194 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					402AC3822A24E8D10087F194 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 402AC3722A24E8CF0087F194;
+					};
+					402AC38C2A24E8D10087F194 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 402AC3722A24E8CF0087F194;
+					};
+				};
+			};
+			buildConfigurationList = 402AC36E2A24E8CF0087F194 /* Build configuration list for PBXProject "LifeSavior" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 402AC36A2A24E8CF0087F194;
+			packageReferences = (
+				405D5DCE2ADCBB5F000AD2BF /* XCRemoteSwiftPackageReference "ChartView" */,
+				40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
+			productRefGroup = 402AC3742A24E8CF0087F194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402AC3722A24E8CF0087F194 /* LifeSavior */,
+				402AC3822A24E8D10087F194 /* LifeSaviorTests */,
+				402AC38C2A24E8D10087F194 /* LifeSaviorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402AC3712A24E8CF0087F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402AC37E2A24E8D10087F194 /* Preview Assets.xcassets in Resources */,
+				402AC37B2A24E8D10087F194 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC3812A24E8D10087F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC38B2A24E8D10087F194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402AC36F2A24E8CF0087F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402AC3AF2A24ED510087F194 /* SettingsTabView.swift in Sources */,
+				403396332A70046B002BFC75 /* SceneDelegate.swift in Sources */,
+				405D5DD62AE07EEB000AD2BF /* HomeView.swift in Sources */,
+				403396312A700380002BFC75 /* NotificationManager.swift in Sources */,
+				402AC3AD2A24ED440087F194 /* AlertsTabView.swift in Sources */,
+				40A5A2D82ACE078E00AE44EE /* GraphTabView.swift in Sources */,
+				402AC3A12A24E94C0087F194 /* LoginView.swift in Sources */,
+				402AC3772A24E8CF0087F194 /* LifeSaviorApp.swift in Sources */,
+				402AC3A92A24ED2A0087F194 /* HomeTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC37F2A24E8D10087F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402AC3882A24E8D10087F194 /* LifeSaviorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		402AC3892A24E8D10087F194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402AC3942A24E8D10087F194 /* LifeSaviorUITestsLaunchTests.swift in Sources */,
+				402AC3922A24E8D10087F194 /* LifeSaviorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		402AC3852A24E8D10087F194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402AC3722A24E8CF0087F194 /* LifeSavior */;
+			targetProxy = 402AC3842A24E8D10087F194 /* PBXContainerItemProxy */;
+		};
+		402AC38F2A24E8D10087F194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 402AC3722A24E8CF0087F194 /* LifeSavior */;
+			targetProxy = 402AC38E2A24E8D10087F194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		402AC3952A24E8D10087F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		402AC3962A24E8D10087F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		402AC3982A24E8D10087F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeSavior/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeSavior/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeniorConnect;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSavior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		402AC3992A24E8D10087F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LifeSavior/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeSavior/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeniorConnect;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSavior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		402AC39B2A24E8D10087F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeSavior.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeSavior";
+			};
+			name = Debug;
+		};
+		402AC39C2A24E8D10087F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSaviorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeSavior.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LifeSavior";
+			};
+			name = Release;
+		};
+		402AC39E2A24E8D10087F194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeSavior;
+			};
+			name = Debug;
+		};
+		402AC39F2A24E8D10087F194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adi-iot.LifeSaviorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeSavior;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402AC36E2A24E8CF0087F194 /* Build configuration list for PBXProject "LifeSavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402AC3952A24E8D10087F194 /* Debug */,
+				402AC3962A24E8D10087F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402AC3972A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSavior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402AC3982A24E8D10087F194 /* Debug */,
+				402AC3992A24E8D10087F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402AC39A2A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSaviorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402AC39B2A24E8D10087F194 /* Debug */,
+				402AC39C2A24E8D10087F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402AC39D2A24E8D10087F194 /* Build configuration list for PBXNativeTarget "LifeSaviorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402AC39E2A24E8D10087F194 /* Debug */,
+				402AC39F2A24E8D10087F194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		405D5DCE2ADCBB5F000AD2BF /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		405D5DCF2ADCBB5F000AD2BF /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 405D5DCE2ADCBB5F000AD2BF /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		40FC9D122AF1AFB500CB043E /* AWSCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCore;
+		};
+		40FC9D142AF1AFB500CB043E /* AWSDynamoDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSDynamoDB;
+		};
+		40FC9D162AF1AFB500CB043E /* AWSIoT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSIoT;
+		};
+		40FC9D182AF1AFB500CB043E /* AWSLogs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40FC9D112AF1AFB500CB043E /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSLogs;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 402AC36B2A24E8CF0087F194 /* Project object */;
+}
